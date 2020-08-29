@@ -69,3 +69,24 @@ body {
     text-align: center;
     padding: 40px;
 }
+.p7 {
+    padding: 4px;
+    background-color: gray;
+    height: 395px;
+}
+.p8 {
+    padding: 10px;
+    background-color: lightgray;
+    height: 300px;
+    margin: auto;
+}
+.p9 {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+}
+@media screen and (max-width: 700px) {
+    .p4, .p3 {
+        flex-direction: column;
+    }
+}

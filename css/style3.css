@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+body, h1, h2, h3, h4, h5, h5 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+nav {
+    background-color: black;
+    width: 100%;
+    overflow: auto;
+}
+.p1 {
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.p2 {
+    flex: 50%;
+}
+.p3 {
+    flex: 5%;
+}
+.p4 {
+    flex: 45%;
+}
+.row1 {
+    display: flex;
+    padding: 50px;
+}
+img {
+    padding: 10px;
+    margin: 50px;
+    height: 200px;
+}
+.r1im1 {
+    text-align: center;
+}
+.r1im2 {
+    text-align: center;
+}
+.r1im3 {
+    text-align: center;
+}
+.r1im4 {
+    text-align: center;
+}
+.pagination {
+    text-align: center;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+a:hover {
+    color: white;
+    background-color: darkslateblue;
+}
+.me {
+    text-align: center;
+}
+.im1 {
+    padding: 5px;
+    text-align: center;
+}
+div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+.foot {
+    display: flex;
+}
+.f1, .f2, .f3 {
+    width: 34%;
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    margin-bottom: 15px;
+    background-color: blanchedalmond;
+    height: 40px;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+li:hover {
+    background-color: burlywood;
+    color: blue;
+}
+span {
+    padding: 10px;
+    background-color: cadetblue;
+    margin: 20px;
+    margin-bottom: 5px;
+}

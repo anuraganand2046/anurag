@@ -1,0 +1,38 @@
+.p1 {
+    background-color: pink;
+    padding: 40px;
+}
+.p3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.p2 ul {
+    flex: 30%;
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+.p2 li {
+    color: white;
+    text-align: center;
+    padding: 8px;
+    background-color: blue;
+    margin-bottom: 7px;
+    text-decoration: none;
+    display: block;
+}
+.p2 li:hover {
+    background-color: yellow;
+    color: black;
+}
+.p4 {
+    flex: 10%;
+}
+.p5 {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+    height: 400px;
+}

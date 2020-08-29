@@ -1,33 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style2.css" type="text/css">
+</head>
 <body>
-
-<h2>JavaScript Can Validate Input</h2>
-
-<p>Please input a number between 1 and 10:</p>
-
-<input id="numb">
-
-<button type="button" onclick="myFunction()">Submit</button>
-
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-  var x, text;
-
-  // Get the value of the input field with id="numb"
-  x = document.getElementById("numb").value;
-
-  // If x is Not a Number or less than one or greater than 10
-  if (isNaN(x) || x < 1 || x > 10) {
-    text = "Input not valid";
-  } else {
-    text = "Input OK";
-  }
-  document.getElementById("demo").innerHTML = text;
-}
-</script>
-
+  <div class= "p1">
+    <h2>CHANIA</h2>
+  </div>
+  <div class= "p3">
+    <div class= "p2">
+      <ul>
+          <li>The Flight</li>
+          <li>The City</li>
+          <li>The Island</li>
+          <li>The Food</li>
+      </ul>
+    </div>
+    <div class= "p4">
+      <h1>The City</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste molestias pariatur omnis aspernatur, dignissimos minus a adipisci sa
+        epe praesentium impedit explicabo reprehenderit error exercitationem nemo nam consequatur, facere sed aliquid!</p>
+    </div>
+  </div>
+  <div class= "p5">
+    <h1>What?</h1>
+    <p>Chania is a city on the island of Crete.</p>
+    <br>
+    <h1>Where?</h1>
+    <p>Crete is a Greek island in the Mediterranean Sea.</p>
+    <h1>How?</h1>
+    <p>You can reach Chania airport from all over Europe.</p>
+  </div>
 </body>
-</html> 
+</html>
