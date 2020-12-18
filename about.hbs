@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/index.css">
+   {{>headerlinks}}
 </head>
 <body>
-    {{>header}}
-    <h1>about us</h1>
+    {{>navbar}}
+    <div class="container-fluid main_header">
+            <div class="row">
+                <div class= "col-md-10 col-12 mx-auto">
+                        <div class="row">
+                            <div class= "col-md-6 col-12 main_header_right align-items-center">
+                                    <img src="images/14.png" alt="AnuragAnand" class= "img-fluid"> 
+                            </div>
+                            <div class= "col-md-6 col-12 main_header_left">
+                                    <p>Welcome to weather app</p>
+                                    <h1>I am a <span class= "coll">web developer and a competitive coder</span></h1>
+                                    <a href="https://codeforces.com/profile/anuraganand2046"><button>About Me</button></a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+    </div>
     {{>footer}}
 </body>
 </html>
